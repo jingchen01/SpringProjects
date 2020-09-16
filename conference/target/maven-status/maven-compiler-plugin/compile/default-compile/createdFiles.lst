@@ -1,0 +1,6 @@
+com/springbootdemo/repository/HibernateSpeakerRepositoryImpl.class
+com/springbootdemo/model/Speaker.class
+com/springbootdemo/repository/SpeakerRepository.class
+com/springbootdemo/service/SpeakerService.class
+com/springbootdemo/service/SpeakerServiceImpl.class
+Application.class
