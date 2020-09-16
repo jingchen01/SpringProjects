@@ -1,5 +1,6 @@
 AppConfig.class
 com/springdemo/model/Speaker.class
+Application2.class
 com/springdemo/service/SpeakerServiceImpl.class
 AppConfig2.class
 com/springdemo/service/SpeakerService.class
