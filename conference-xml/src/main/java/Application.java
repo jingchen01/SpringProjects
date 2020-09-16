@@ -11,8 +11,12 @@ public class Application {
 
         SpeakerService service = appContext.getBean("speakerService", SpeakerService.class);
         System.out.println(service.findAll().get(0).getFirstName());
+        System.out.println(service.findAll().get(0).getLastName());
+        System.out.println(service.findAll().get(0).getSeedNum());
 
         SpeakerService2 service2 = appContext.getBean("speakerService2", SpeakerService2.class);
         System.out.println(service2.findAll().get(0).getFirstName());
+        System.out.println(service2.findAll().get(0).getLastName());
+        System.out.println(service2.findAll().get(0).getSeedNum());
     }
 }

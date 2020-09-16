@@ -12,8 +12,8 @@
         <property name="speakerRepository" ref="speakerRepository" />
     </bean>
 
-    <bean name="speakerService2" class="com.springdemo.service.SpeakerService2Impl">
-        <constructor-arg index="0" ref="speakerRepository" />
+    <bean name="speakerService2" class="com.springdemo.service.SpeakerService2Impl" autowire="constructor">
+        <!--<constructor-arg index="0" ref="speakerRepository" />-->
     </bean>
 
 </beans>
