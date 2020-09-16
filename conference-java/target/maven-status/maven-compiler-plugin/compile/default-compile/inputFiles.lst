@@ -1,6 +1,7 @@
-/Users/jingchen/dev/workspace/conference/src/main/java/com/springbootdemo/model/Speaker.java
-/Users/jingchen/dev/workspace/conference/src/main/java/com/springbootdemo/service/SpeakerServiceImpl.java
-/Users/jingchen/dev/workspace/conference/src/main/java/com/springbootdemo/service/SpeakerService.java
-/Users/jingchen/dev/workspace/conference/src/main/java/com/springbootdemo/repository/HibernateSpeakerRepositoryImpl.java
-/Users/jingchen/dev/workspace/conference/src/main/java/Application.java
-/Users/jingchen/dev/workspace/conference/src/main/java/com/springbootdemo/repository/SpeakerRepository.java
+/Users/jingchen/dev/src/SpringProjects/conference-java/src/main/java/com/springbootdemo/service/SpeakerService.java
+/Users/jingchen/dev/src/SpringProjects/conference-java/src/main/java/AppConfig.java
+/Users/jingchen/dev/src/SpringProjects/conference-java/src/main/java/com/springbootdemo/service/SpeakerServiceImpl.java
+/Users/jingchen/dev/src/SpringProjects/conference-java/src/main/java/com/springbootdemo/repository/SpeakerRepository.java
+/Users/jingchen/dev/src/SpringProjects/conference-java/src/main/java/com/springbootdemo/model/Speaker.java
+/Users/jingchen/dev/src/SpringProjects/conference-java/src/main/java/com/springbootdemo/repository/HibernateSpeakerRepositoryImpl.java
+/Users/jingchen/dev/src/SpringProjects/conference-java/src/main/java/Application.java

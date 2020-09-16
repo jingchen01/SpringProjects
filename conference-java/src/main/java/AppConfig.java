@@ -17,10 +17,24 @@ public class AppConfig {
          return service;
      }
 
+    @Bean(name = "speakerService2")
+    @Scope(value = BeanDefinition.SCOPE_SINGLETON)
+    public SpeakerService getSpeakerService2() {
+        SpeakerServiceImpl service = new SpeakerServiceImpl();
+        return service;
+    }
+
     @Bean(name = "speakerServicePrototype")
     @Scope(value = BeanDefinition.SCOPE_PROTOTYPE)
     public SpeakerService getSpeakerServicePrototype() {
         SpeakerServiceImpl service = new SpeakerServiceImpl(getSpeakerRepository());
+        return service;
+    }
+
+    @Bean(name = "speakerServicePrototype2")
+    @Scope(value = BeanDefinition.SCOPE_PROTOTYPE)
+    public SpeakerService getSpeakerServicePrototype2() {
+        SpeakerServiceImpl service = new SpeakerServiceImpl();
         return service;
     }
 
