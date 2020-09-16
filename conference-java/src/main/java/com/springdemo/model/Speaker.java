@@ -1,4 +1,4 @@
-package com.springbootdemo.model;
+package com.springdemo.model;
 
 public class Speaker {
 

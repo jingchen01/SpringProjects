@@ -1,6 +1,6 @@
-package com.springbootdemo.service;
+package com.springdemo.service;
 
-import com.springbootdemo.model.Speaker;
+import com.springdemo.model.Speaker;
 
 import java.util.List;
 

@@ -1,10 +1,12 @@
-package com.springbootdemo.repository;
+package com.springdemo.repository;
 
-import com.springbootdemo.model.Speaker;
+import com.springdemo.model.Speaker;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository("speakerRepository")
 public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
 
     public List<Speaker> findAll() {

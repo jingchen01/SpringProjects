@@ -1,7 +1,7 @@
-import com.springbootdemo.repository.HibernateSpeakerRepositoryImpl;
-import com.springbootdemo.repository.SpeakerRepository;
-import com.springbootdemo.service.SpeakerService;
-import com.springbootdemo.service.SpeakerServiceImpl;
+import com.springdemo.repository.HibernateSpeakerRepositoryImpl;
+import com.springdemo.repository.SpeakerRepository;
+import com.springdemo.service.SpeakerService;
+import com.springdemo.service.SpeakerServiceImpl;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

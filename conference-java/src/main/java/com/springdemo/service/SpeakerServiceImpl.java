@@ -1,11 +1,13 @@
-package com.springbootdemo.service;
+package com.springdemo.service;
 
-import com.springbootdemo.model.Speaker;
-import com.springbootdemo.repository.SpeakerRepository;
+import com.springdemo.model.Speaker;
+import com.springdemo.repository.SpeakerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service("speakerService")
 public class SpeakerServiceImpl implements SpeakerService {
 
     private SpeakerRepository repository;
@@ -14,6 +16,7 @@ public class SpeakerServiceImpl implements SpeakerService {
         System.out.println("SpeakerServiceImpl no args constructor");
     }
 
+    //@Autowired
     public SpeakerServiceImpl(SpeakerRepository speakerRepository) {
         repository = speakerRepository;
         System.out.println("SpeakerServiceImpl repository constructor");

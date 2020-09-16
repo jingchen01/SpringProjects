@@ -1,6 +1,4 @@
-import com.springbootdemo.model.Speaker;
-import com.springbootdemo.service.SpeakerService;
-import com.springbootdemo.service.SpeakerServiceImpl;
+import com.springdemo.service.SpeakerService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
